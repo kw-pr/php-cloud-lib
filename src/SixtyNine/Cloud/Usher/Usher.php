@@ -34,6 +34,12 @@ class Usher
 
     /** @var Logger */
     protected $logger;
+    
+    /** @var int */
+    protected $imgHeight;
+    
+    /** @var int */
+    protected $imgWidth;
 
     /**
      * @param int $imgWidth
